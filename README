@@ -1,0 +1,7 @@
+How to run:
+
+python3 nams_obj_main.py
+
+output to see in output_file
+
+if any error occurs in the prog_name.nasm file then show in error_file

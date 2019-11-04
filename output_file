@@ -1,0 +1,25 @@
+								<---SYMBOL TABLE--->
+
+
+	   line number		Sym_no	   Sym_name		  section     Define/undefine   data_type    strt_adr   size		value
+			 2			 1			 num1			 data		D			 db			 0			 23			 "This is the string" 10 0 
+			 3			 2			 num2			 data		D			 dd			 23			 8			 10 20 
+			 5			 3			 num3			 bss		D			 resb		 0			 1			 -
+			 6			 4			 num4			 bss		D			 resb		 1			 2			 -
+			 8			 5			 main			 txt			D			 -			 -			 -			 -
+			 9			 6			 print			 txt			U			 -			 -			 -			 -
+			 9			 7			 msg			 txt			U			 -			 -			 -			 -
+			 10			 8			 main			 txt			U			 Label		 -			 -			 -
+			 12			 9			 abc			 txt			D			 Label		 -			 -			 -
+			 14			 10			 pqr			         txt			U			 Label		 -			 -			 -
+
+
+
+						<-------LITERAL TABLE--------->
+
+
+			  line no    literal count      literal value
+				 10				 1				 100
+				 11				 2				 200
+				 12				 3				 10
+				 14				 4				 50

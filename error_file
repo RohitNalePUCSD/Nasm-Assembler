@@ -1,0 +1,4 @@
+File.asm:5: error: symbol `num1' redefined
+File.asm:6: error: symbol `num2' redefined
+File.asm:10: error: parser: instruction expected
+File.asm:12: error: parser: instruction expected
